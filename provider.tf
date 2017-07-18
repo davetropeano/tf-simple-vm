@@ -1,6 +1,5 @@
-provider "ibmcloud" {
-  ibmid              = "${var.ibmid}"
-  ibmid_password     = "${var.ibmidpw}"
+provider "ibm" {
+  softlayer_username  = "${var.sl_username}"
+  softlayer_api_key = "${var.sl_api_key}"
   softlayer_timeout  = 300
-  softlayer_account_number = "${var.slaccountnum}"
 }
