@@ -1,15 +1,11 @@
-variable "ibmid" {
-   type = "string"
-   description = "Your IBM-ID."
-}
-
-variable "ibmidpw" {
-   type = "string"
-   description = "The password for your IBM-ID."
-}
-
-variable "slaccountnum" {
+variable "sl_username" {
    type = "string"
    default = ""
-   description = "Your Softlayer account number."
+   description = "Your Softlayer username."
+}
+
+variable "sl_api_key" {
+   type = "string"
+   default = ""
+   description = "Your Softlayer API key."
 }
